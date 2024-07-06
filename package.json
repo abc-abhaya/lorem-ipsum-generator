@@ -1,0 +1,31 @@
+{
+	"homepage": "https://abc-abhaya.github.io/frame1",
+	"name": "frame1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --config webpack.dev.js --open",
+		"build": "webpack --config webpack.prod.js",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^7.1.2",
+		"file-loader": "^6.2.0",
+		"gh-pages": "^6.1.1",
+		"html-loader": "^5.0.0",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4"
+	},
+	"dependencies": {
+		"html-webpack-plugin": "^5.6.0",
+		"mini-css-extract-plugin": "^2.9.0",
+		"webpack-dev-server": "^5.0.4",
+		"webpack-merge": "^6.0.1"
+	}
+}
