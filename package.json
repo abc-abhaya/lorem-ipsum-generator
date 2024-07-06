@@ -1,9 +1,9 @@
 {
-	"homepage": "https://abc-abhaya.github.io/frame1",
-	"name": "frame1",
+	"homepage": "https://abc-abhaya.github.io/lorem-ipsum-generator",
+	"name": "lorem-ipsum-generator",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"private": true,
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.js --open",
 		"build": "webpack --config webpack.prod.js",
